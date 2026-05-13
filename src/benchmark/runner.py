@@ -189,7 +189,7 @@ class BenchmarkRunner:
 
                         # NSHybridSolver returns NSResult -- convert to SolverResult
                         if isinstance(solver, NSHybridSolver):
-                            from src.benchmark.baselines import SolverResult, _make_result
+                            from src.benchmark.baseline import SolverResult, _make_result
                             metrics = raw.best_schedule.compute_metrics()
                             result = SolverResult(
                                 solver_name    = "NSHybrid",
