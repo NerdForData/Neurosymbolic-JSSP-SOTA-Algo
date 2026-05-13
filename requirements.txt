@@ -1,0 +1,21 @@
+# Core
+numpy>=1.24
+matplotlib>=3.7
+pandas>=2.0
+scipy>=1.10
+
+# Optimization
+deap>=1.4          # Genetic Algorithm framework
+ortools>=9.7       # OR-Tools CP-SAT (baseline solver)
+
+# LLM
+openai>=1.0        # GPT-4 API  (set OPENAI_API_KEY)
+# transformers>=4.38  # Uncomment for local Llama-3
+
+# Utilities
+tqdm>=4.65
+python-dotenv>=1.0  # for loading API keys from .env
+
+# Optional: notebook support
+jupyter>=1.0
+ipykernel>=6.0
